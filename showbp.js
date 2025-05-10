@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Show osu! BP Index numbers
 // @namespace    http://tampermonkey.net/
-// @version      2025-05-10
+// @version      2025-05-10.1
 // @description  Display your BP index on your osu! profile page.
 // @author       NaughtyChas
 // @tag          osu
