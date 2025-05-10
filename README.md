@@ -18,4 +18,6 @@ After installation, the script will automatically run when you visit the osu! we
 
 ---
 
-*As a coding newbie, I would be happy if this script could help you navigate through the scores.* ❤️
+### Contributions?
+
+While this script is simple, suggestions and improvements via issues or pull requests are always welcome.
