@@ -36,7 +36,7 @@
                     bpNumberSpan.classList.add('bp-number');
                     bpNumberSpan.textContent = `BP${index + 1}`;
 
-                    bpNumberSpan.style.marginRight = '-10px';
+                    bpNumberSpan.style.marginRight = '10px';
                     bpNumberSpan.style.fontWeight = 'bold';
                     bpNumberSpan.style.color = '#fff';
                     bpNumberSpan.style.minWidth = '40px';
