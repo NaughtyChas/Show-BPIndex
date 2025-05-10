@@ -14,9 +14,11 @@ You will have to download and install the [TamperMonkey](https://www.tampermonke
 
 Add this script to your extension. You can:
 
-1. Go to GreasyFork and install the script from [this link](https://greasyfork.org/zh-CN/scripts/535560-show-osu-bp-index-numbers). Click on the install button and follow the instructions to add the script to your TamperMonkey extension, or:
+1. **Recommended**: Go to GreasyFork and install the script from [this link](https://greasyfork.org/zh-CN/scripts/535560-show-osu-bp-index-numbers).  
+   Click on the install button and follow the instructions to add the script to your TamperMonkey extension, or:
 
-2. Copy the code from this repository and create a new script in TamperMonkey. To do this, open the TamperMonkey dashboard, click on the "+" button to create a new script, and paste the code into the editor. Save the script.
+2. Copy the code from this repository and create a new script in TamperMonkey.  
+   To do this, open the TamperMonkey dashboard, click on the "+" button to create a new script, and paste the code into the editor. Save the script.
 
 After installation, the script will automatically run when you visit the osu! website. You should see index numbers next to your best plays in the BP list.
 
