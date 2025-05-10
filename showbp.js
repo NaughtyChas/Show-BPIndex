@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Show osu! BP Index numbers
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  Display your BP index on your osu! profile page.
 // @author       NaughtyChas
 // @tag          osu
@@ -34,13 +34,14 @@
                 if (!entry.querySelector('.bp-number')) {
                     const bpNumberSpan = document.createElement('span');
                     bpNumberSpan.classList.add('bp-number');
-                    bpNumberSpan.textContent = `BP${index + 1}`;
+                    bpNumberSpan.textContent = `${index + 1}`;
 
-                    bpNumberSpan.style.marginRight = '10px';
+                    bpNumberSpan.style.marginLeft = '-17px';
                     bpNumberSpan.style.fontWeight = 'bold';
+                    bpNumberSpan.style.fontSize = '14px';
                     bpNumberSpan.style.color = '#fff';
                     bpNumberSpan.style.minWidth = '40px';
-                    bpNumberSpan.style.textAlign = 'left';
+                    bpNumberSpan.style.textAlign = 'center';
 
                     const firstGroup = entry.querySelector('.play-detail__group--top');
 
@@ -53,7 +54,7 @@
     }
 
     setTimeout(addBpNumbers, 500);
-    
+
     // For scores that are loaded dynamically. 
     // Bro is writing code with defensive measures.
     const observer = new MutationObserver(addBpNumbers);
