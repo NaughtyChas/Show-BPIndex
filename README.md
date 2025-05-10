@@ -2,7 +2,7 @@
 
 Want to know where a score ranks among your best plays? By using this script, you can easily find out the position of a score in your best plays list.
 
-This project is a simple TamperMonkey script that enhances the osu! website by adding a feature to display the index of your best plays in the leaderboard. It only works on the [osu! website](osu.ppy.sh). 
+This project is a simple TamperMonkey script that enhances the [osu! website](osu.ppy.sh) by adding a feature to display the index of your best plays in the leaderboard.
 
 Once the script is installed, you will see index numbers next to your best plays in the BP list.
 
